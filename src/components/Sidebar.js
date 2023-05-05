@@ -5,7 +5,7 @@ import {TbYoga} from "react-icons/tb";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import Link from "next/link";
 import { useContext } from "react";
-import { SidebarContext } from "@/context/SidebarContext";
+import { SidebarContext } from "../context/SidebarContext";
 import { useRouter } from "next/router";
 
 const sidebarItems = [
