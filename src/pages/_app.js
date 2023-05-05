@@ -1,6 +1,6 @@
 import { SidebarProvider } from "../context/SidebarContext";
 import store from "../redux/store";
-import "../styles/global.css";
+import "../styles/globals.css";
 import { Provider } from "react-redux";
 
 export default function App({ Component, pageProps }) {

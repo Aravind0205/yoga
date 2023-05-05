@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import BaseLayout from "@/components/BaseLayout";
+import BaseLayout from "../../components/BaseLayout";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchYogaCategories } from "../../redux/services";
 import { useRouter } from "next/router";

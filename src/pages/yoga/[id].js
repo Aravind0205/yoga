@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import BaseLayout from "@/components/BaseLayout";
+import BaseLayout from "../../components/BaseLayout";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchYogaCategories } from "../../redux/services";
 import axios from "axios";
